@@ -71,7 +71,7 @@ import streamlit as st
 st.title("Prédiction de Profit pour Startups")
 #DESCRIPTION
 st.markdown("""
-Cette application permet de prédire le bénéfice d'une startup en fonction de ses dépenses dans trois domaines clés — **Recherche et Développement (R&D)**, **Marketing** et **Administration** (frais administratifs, salaires, etc.) — ainsi que de sa **région d'implantation**. Grâce à un modèle de régression multiple basé sur l'apprentissage automatique en Python, l'application atteint une précision de **96 %** pour fournir des prévisions fiables.
+Cette application permet de prédire le bénéfice d'une startup en fonction de ses dépenses dans quatres domaines clés — **Recherche et Développement (R&D)**, **Marketing** et **Administration** (frais administratifs, salaires, etc.) — ainsi que de sa **région d'implantation**. Grâce à un modèle de régression multiple basé sur le Machine Learning (ML) en Python, l'application atteint une précision de **96 %** pour fournir des prévisions fiables.
 
 Conçue pour répondre aux besoins des entrepreneurs et des investisseurs, cette application aide non seulement les startups à optimiser leurs budgets, mais surtout les investisseurs à identifier les startups les plus rentables. Elle peut également être utile aux analystes financiers et aux conseillers en investissement qui recherchent des indicateurs de performance basés sur des données concrètes.
 
@@ -79,6 +79,7 @@ Conçue pour répondre aux besoins des entrepreneurs et des investisseurs, cette
 
 **Développé par ZARAVITA**  
 Contact : zaravitamds18@gmail.com
+LinkedIn: http://linkedin.com/in/zara-vita-567464202
 """)
 
 # Entrées utilisateur pour les caractéristiques
