@@ -74,7 +74,13 @@ st.title("Prédiction de Profit pour Startups")
 R_D_Spend = st.number_input("Dépenses en R&D :", min_value=0.0, step=1000.0)
 Administration = st.number_input("Administration :", min_value=0.0, step=1000.0)
 Marketing_Spend = st.number_input("Dépenses Marketing :", min_value=0.0, step=1000.0)
-State = st.selectbox("État :", ["New York", "California", "Florida"])
+State = st.selectbox("État :", ["Casablanca-Settat", "Tanger-Tetouan-AlHoceima", "Rabat-Salé-Kenitra"])
+#CONTEXTE MAROC
+if State=="Casablanca-Settat":
+    State="New York"
+    else if State=="Tanger-Tetouan-AlHoceima":
+        State="California"
+    else : State=="Florida"    
 
 # Préparer les données pour la prédiction
 if st.button("Prédire"):
@@ -88,7 +94,7 @@ if st.button("Prédire"):
 
     # Faire la prédiction
     prediction = regressor.predict(input_transformed)
-    st.write(f"Profit prédit : ${round(prediction[0], 2)}")
+    st.write(f"Profit prédit : {round(prediction[0], 2)}DHS")
 
 
 
