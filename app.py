@@ -78,7 +78,7 @@ Conçue pour répondre aux besoins des entrepreneurs et des investisseurs, cette
 > **Note** : Cette application a été développée dans le cadre d’un portfolio et repose uniquement sur les données de 50 startups. Elle ne constitue pas une solution fiable pour une application concrète, et l’auteur décline toute responsabilité quant à son usage à des fins décisionnelles.
 
 **Développé par ZARAVITA**  
-Contact : zaravitamds18@gmail.com
+E-mail : zaravitamds18@gmail.com  
 LinkedIn: http://linkedin.com/in/zara-vita-567464202
 """)
 
