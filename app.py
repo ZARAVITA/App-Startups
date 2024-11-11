@@ -78,9 +78,9 @@ State = st.selectbox("État :", ["Casablanca-Settat", "Tanger-Tetouan-AlHoceima"
 #CONTEXTE MAROC
 if State=="Casablanca-Settat":
     State="New York"
-    else if State=="Tanger-Tetouan-AlHoceima":
+else if State=="Tanger-Tetouan-AlHoceima":
         State="California"
-    else : State=="Florida"    
+else : State=="Florida"    
 
 # Préparer les données pour la prédiction
 if st.button("Prédire"):
