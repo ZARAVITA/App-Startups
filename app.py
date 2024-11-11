@@ -109,7 +109,7 @@ if st.button("Prédire"):
 
     # Faire la prédiction
     prediction = regressor.predict(input_transformed)
-    st.write(f"Profit prédit : {round(prediction[0], 2)} Dhs")
+    st.write(f"Profit prédit : {round(prediction[0], 2)} Dhs par an")
 
 
 
