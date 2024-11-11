@@ -78,6 +78,7 @@ Conçue pour répondre aux besoins des entrepreneurs et des investisseurs, cette
   
 **Limite du Modèle**: Veuillez noter que ce modèle inclut une valeur de base (intercept) pour prédire le profit même lorsque les dépenses sont nulles. Par conséquent, les prédictions pourraient montrer un profit minimum artificiel même sans investissements en R&D, marketing, ou administration, ce qui reflète une simplification du modèle.  
 > **Note** : Cette application a été développée dans le cadre d’un portfolio et repose uniquement sur les données de 50 startups. Elle ne constitue pas une solution fiable pour une application concrète, et l’auteur décline toute responsabilité quant à son usage à des fins décisionnelles.  
+
 **Développé par ZARAVITA**  
 E-mail : zaravitamds18@gmail.com  
 LinkedIn: http://linkedin.com/in/zara-vita-567464202
