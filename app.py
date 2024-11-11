@@ -81,7 +81,7 @@ if State=="Casablanca-Settat":
 elif State == "Tanger-Tetouan-AlHoceima" :
         State="California"
 else : 
-    State=="Floride"    
+    State="Florida"    
 
 # Préparer les données pour la prédiction
 if st.button("Prédire"):
