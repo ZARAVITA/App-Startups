@@ -79,6 +79,7 @@ Conçue pour répondre aux besoins des entrepreneurs et des investisseurs, cette
 
 **Développé par ZARAVITA**  
 Contact : zaravitamds18@gmail.com
+
 LinkedIn: http://linkedin.com/in/zara-vita-567464202
 """)
 
