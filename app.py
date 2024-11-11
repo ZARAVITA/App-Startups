@@ -70,7 +70,7 @@ import streamlit as st
 # Application Streamlit
 st.title("Prédiction de Profit pour Startups")
 """ Ce jeu d'applicaction sert à prédire le bénéficie d'une startup en fonction de
-dépenses en Recherche et Développement, en Marketing et en Administratiion. 
+dépenses en Recherche et Développement (R&D), en Marketing et en Administration (frais administratifs, salaires...etc). 
 Basé sur les données de 50 startups, le modèle de regression multiple est dérrière cette prévision
 en utilisant le ML (by ZARAVITA, contact: zaravitamds18@gmail.com"""
 
