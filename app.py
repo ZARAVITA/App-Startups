@@ -69,10 +69,15 @@ print("La prédicion: ",regressor.predict(v_transformed))
 import streamlit as st
 # Application Streamlit
 st.title("Prédiction de Profit pour Startups")
-""" Ce jeu d'applicaction sert à prédire le bénéficie d'une startup en fonction de
-dépenses en Recherche et Développement (R&D), en Marketing et en Administration (frais administratifs, salaires...etc). 
-Basé sur les données de 50 startups, le modèle de regression multiple est dérrière cette prévision
-en utilisant le ML (by ZARAVITA, contact: zaravitamds18@gmail.com)"""
+#DESCRIPTION
+""" CCette application permet de prédire le bénéfice d'une startup en fonction de ses dépenses dans trois domaines clés — Recherche et Développement (R&D), Marketing et Administration (frais administratifs, salaires, etc.) — ainsi que de sa région d'implantation. Grâce à un modèle de régression multiple basé sur l'apprentissage automatique en Python, l'application atteint une précision de 96 % pour fournir des prévisions fiables.
+
+Conçue pour répondre aux besoins des entrepreneurs et des investisseurs, cette application aide non seulement les startups à optimiser leurs budgets, mais surtout les investisseurs à identifier les startups les plus rentables. Elle peut également être utile aux analystes financiers et aux conseillers en investissement qui recherchent des indicateurs de performance basés sur des données concrètes.
+
+Note : Cette application a été développée dans le cadre d’un portfolio et repose uniquement sur les données de 50 startups. Elle ne constitue pas une solution fiable pour une application concrète, et l’auteur décline toute responsabilité quant à son usage à des fins décisionnelles.
+
+Développé par ZARAVITA
+Contact : zaravitamds18@gmail.com"""
 
 # Entrées utilisateur pour les caractéristiques
 R_D_Spend = st.number_input("Dépenses en R&D :", min_value=0.0, step=1000.0)
